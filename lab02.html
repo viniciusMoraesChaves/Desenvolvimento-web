@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB02</title>
+</head>
+<body>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        form{
+            padding: 3rem;
+            gap: 1rem;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 20vw;
+            height: 40vh;
+            background:#c4c4c4;
+            margin-left: 35%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.418) 10px 7px 29px 0px;
+        }
+
+        form select{
+            width: 100px;
+            height: 30px;
+            border: none;
+        }
+
+        form textarea{
+            width: 350px;
+            height: 200px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            padding: 1rem;
+        }
+
+        form label{
+            font-size: large;
+            font-weight: 500;
+        }
+
+        form input[type="submit"]{
+            width: 150px;
+            height: 70px;
+            border: none;
+            background: #4895EF;
+            color: #ffffff;
+            font-size: large;
+            border-radius: 15px;
+        }
+
+        form input[type="submit"]:hover{
+            background: #86befd;
+        }
+    </style>
+    
+    <!--cabeçalhos com seus respectivos parágrafos-->
+    <h1>H1</h1>
+    <p>este é um h1</p>
+    <h2>H2</h2>
+    <p>este é um h2</p>
+    <h3>H3</h3>
+    <p>este é um h3</p>
+    <h4>H4</h4>
+    <p>este é um h4</p>
+    <h5>H5</h5>
+    <p>este é um h5</p>
+    <h6>H6</h6>
+    <p>este é um h6</p>
+    <!--lista não ordenada com 3 elementos-->
+    <ul>
+        <li>elemento1</li>
+        <li>elemento2</li>
+        <li>elemento3</li>
+    </ul>
+
+
+    <!--lista ordenada com 3 elementos-->
+    <ol>
+        <li>elemento4</li>
+        <li>elemento5</li>
+        <li>elemento6</li>
+    </ol>
+
+    <form>
+        <label>TOP FORMS!!!</label>
+        <select>
+            <option value="escolha1">um</option>
+            <option value="escolha2">dois</option>
+        </select>
+        <textarea></textarea>
+        <input type="submit">
+    </form>
+
+    <canvas id="myCanvas"></canvas>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <audio controls>
+        <source src="https://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/player_shoot.wav" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+
+    <video width="560" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+        
+</body>
+</html>
