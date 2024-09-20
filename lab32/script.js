@@ -3,9 +3,9 @@ const questions = [
         question: "Qual dessas frases não foi dita por Ramon Batista Soares?",
         options: [
             { text: "Eu nao!", correct: false},
-            { text: "sou motoTaxi", correct: true},
+            { text: "Deixa que eu dou!", correct: true},
             { text: "Eu não dou, só recebo!", correct: false},
-            { text: "Eu só faço com a cabeça", correct: false},
+            { text: "Eu só faço com a cabeça!", correct: false},
             
         ]
     },
