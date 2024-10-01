@@ -1,0 +1,24 @@
+:root{
+    --blue: #6495ED;
+    --white: #FFFFFF;
+}
+
+*{
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    background: var(--blue);
+    color: var(--white);
+    position: sticky;
+    padding:20px;
+}
+
+h1{
+    font-size: 30px;
+}
