@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div>
+        <form action="/send2fa" method="post">
+            <input type="email" name="email" placeholder="Digite o seu email" required>
+            <button type="submit">Send 2FA</button>
+        </form>
+
+        <form action="/verify2fa" method="post">
+            <input type="text" id="secret" name="secret" placeholder="Digite o seu código 2FA" required>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
